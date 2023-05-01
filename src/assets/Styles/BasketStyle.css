@@ -1,0 +1,153 @@
+.basket_tabs {
+    border-bottom: none;
+}
+.basket-tabination {
+    border-right: 1px solid rgba(29, 29, 29, 0.7);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.basket_tabs {
+    border-right: 1px solid rgba(29, 29, 29, 0.7);
+    padding-top: 50px;
+    display: block;
+}
+
+.basket-boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#basket {
+    border-top: 1px solid rgba(29, 29, 29, 0.7);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 250px;
+}
+
+.basket-promo {
+    margin-top: 50px;
+    padding: 0 40px;
+}
+.promo-text h5{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+
+.promo {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.promo-input {
+    margin-right: 15px;
+}
+
+.promo-input input{
+    border: 1px solid rgba(2, 78, 0, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px 0px;
+    width: 140px;
+}
+
+.promo-btn button {
+    background: transparent;
+    border: 1px solid #024E00;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #024E00;
+    padding: 5px 30px;
+}
+
+.basket-dis {
+    display: flex;
+    padding-left: 40px;
+    text-align: left;
+    margin-bottom: 45px;
+}
+.basket-box {
+    margin: 30px;
+}
+.dis-title {
+    margin-right: 60px;
+}
+
+.without-dis-title p,
+.without-dis-cost p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 7px;
+    line-height: 100%;
+}
+
+.discount-title p,
+.discount-cost p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.total-title p,
+.total-cost p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.basket-order-btn {
+    padding-left: 40px;
+    display: flex;
+}
+
+.basket-order-btn button {
+    background: #024E00;
+    border-radius: 50px;
+    padding: 5px 38px;
+    color: #F3F3F3;
+    border: 1px solid #024E00;
+    font-size: 16px;
+    font-weight: 600;
+}
+.basket-order-btn button:hover {
+    background: transparent;
+    color: #024E00;
+    transition: .3s ease-in-out;
+}
+
+.basket-box-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.basket-box-btn button {
+    width: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid #024E00;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #024E00;
+}
+
+.basket-box-btn button:hover {
+    background: #024E00;
+    color: #F3F3F3;
+    transition: .3s ease-in-out;
+}
+
+.basket-box-btn .count {
+    margin: 0px 8px;
+}
+
+.basket-box-btn .count span {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+

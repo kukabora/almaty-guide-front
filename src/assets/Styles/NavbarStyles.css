@@ -1,0 +1,46 @@
+.navigation-panel {
+    background: transparent;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#navbar li {
+    list-style: none;
+    margin: 20px 20px;
+    position: relative;
+    z-index: 999;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ECECEC;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#navbar li a:hover {
+    transition: .3s;
+    text-decoration: underline;
+}
+
+nav a {
+    z-index: 999;
+}
+.blc li a {
+    color: #000 !important;
+}

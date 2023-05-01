@@ -1,0 +1,15 @@
+import React from 'react'
+import GoogleMapReact from 'google-map-react'
+import './map.css'
+
+const Map = ({ location, zoomLevel }) => (
+    <div className="map">
+        <h2 className="map-h2">Come Visit Us At Our Campus</h2>
+
+        <div className="google-map">
+
+        </div>
+    </div>
+)
+
+export default Map;

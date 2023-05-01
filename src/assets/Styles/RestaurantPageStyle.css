@@ -1,0 +1,345 @@
+.respage-items {
+    text-align: left;
+}
+
+.respage-items .foodpage-item-description {
+    margin-top: 70px;
+}
+
+.respage-item-title h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #262626;
+    line-height: 120%;
+}
+
+.respage-item-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.respage-scheme {
+    padding: 0px 0px 0px 100px;
+}
+
+.scheme-title {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.scheme-title h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #262626;
+    line-height: 120%;
+}
+
+.scheme-block {
+    background: rgba(38, 38, 38, 0.2);
+    position: relative;
+}
+
+.toilet {
+    width: 160px;
+    height: 36px;
+    left: 25%;
+    text-align: center;
+    padding: 5px;
+}
+.bar {
+    width: 353px;
+    height: 77px;
+    left: 65%;
+    top: -36px;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    padding: 25px;
+}
+.door {
+    width: 117px;
+    height: 20px;
+}
+.table {
+    width: 86px;
+    height: 86px;
+    background: rgba(38, 38, 38, 0.2);
+    border-radius: 100px;
+    position: relative;
+}
+
+.chair {
+    width: 34px;
+    height: 34px;
+    background: rgba(38, 38, 38, 0.2);
+    border-radius: 100px;
+    position: relative;
+}
+
+.sofa {
+    width: 160px;
+    height: 36px;
+    background: rgba(38, 38, 38, 0.2);
+    position: relative;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    background: transparent;
+}
+
+.first {
+    height: 200px;
+    left: 0%;
+}
+.first .table{
+    left: 5%;
+    top: 30px;
+}
+.first .one-chair {
+    top: -115px;
+    left: 8%;
+}
+
+.first .two-chair {
+    top: -135px;
+    left: 13%;
+}
+
+.first .three-chair {
+    top: -130px;
+    left: 18%;
+}
+
+.first .four-chair {
+    top: -120px;
+    left: 17%;
+}
+
+.first .five-chair {
+    top: -120px;
+    left: 14%;
+}
+
+.first .six-chair {
+    top: -140px;
+    left: 8%;
+}
+
+.first .seven-chair {
+    top: -190px;
+    left: 2%;
+}
+
+.first .eight-chair {
+    top: -260px;
+    left: 0%;
+}
+
+.first .nine-chair {
+    top: -340px;
+    left: 0%;
+}
+
+.first .ten-chair {
+    top: -410px;
+    left: 3%;
+}
+
+
+
+.second {
+    left: 40%;
+    top: -100px;
+    height: 100px;
+}
+
+.second .one-chair {
+    top: -130px;
+    left: 3%;
+}
+.second .two-chair {
+    top: -110px;
+    left: 11%;
+}
+.second .three-chair {
+    top: -85px;
+    left: 3%;
+}
+.second .four-chair {
+    top: -177px;
+    left: -35px;
+}
+.second .table {
+    width: 60px;
+    height: 60px;
+    left: 1.5%;
+    top: -10px;
+}
+
+.third {
+    left: 90%;
+    top: -230px;
+    height: 300px;
+}
+
+.third .table {
+    width: 86px;
+    height: 215px;
+    border-radius: 0;
+}
+
+.third .one-chair {
+    left: 3%;
+    top: -280px;
+}
+
+.third .two-chair {
+    left: 13%;
+    top: -250px;
+}
+
+.third .three-chair {
+    left: 13%;
+    top: -230px;
+}
+
+.third .four-chair {
+    left: 13%;
+    top: -210px;
+}
+
+.third .five-chair {
+    left: 13%;
+    top: -190px;
+}
+
+.third .six-chair {
+    left: 3%;
+    top: -170px;
+}
+
+.third .seven-chair {
+    left: -50px;
+    top: -420px;
+}
+
+.third .eight-chair {
+    left: -50px;
+    top: -400px;
+}
+
+.third .nine-chair {
+    left: -50px;
+    top: -380px;
+}
+
+.third .ten-chair {
+    left: -50px;
+    top: -360px;
+}
+
+.fourth {
+    top: -200px;
+    left: 10%;
+    height: 110px;
+}
+.fourth .table {
+    width: 60px;
+    height: 60px;
+}
+
+.fourth .one-chair {
+    top: -120px;
+    left: -10px;
+}
+
+.fourth .two-chair {
+    top: -155px;
+    left: 5%;
+}
+
+.fourth .three-chair {
+    top: -130px;
+    left: 9%;
+}
+
+.fourth .four-chair {
+    top: -110px;
+    left: 5%;
+}
+
+.fourth .five-chair {
+    top: -143px;
+    left: -10px;
+}
+
+.fourth .six-chair {
+    top: -230px;
+    left: -50px;
+}
+
+.door {
+    left: 40%;
+    top: -190px;
+    text-align: center;
+}
+
+.fifth {
+    left: 70%;
+    top: -300px;
+    height: 100px;
+}
+.fifth .table {
+    width: 60px;
+    height: 60px;
+}
+
+.fifth .one-chair {
+    top: -120px;
+    left: -15px;
+}
+.fifth .two-chair {
+    top: -155px;
+    left: 5%;
+}
+.fifth .three-chair {
+    left: 9%;
+    top: -130px;
+}
+.fifth .four-chair {
+    top: -165px;
+    left: -45px;
+}
+
+.fifth .sofa {
+    width: 160px;
+    height: 36px;
+    background: rgba(38, 38, 38, 0.2);
+    position: relative;
+    top: -135px;
+    left: -45px;
+}
+
+.scheme-main {
+    height: 750px;
+}
+
+.res-btn {
+    display: flex;
+    justify-content: center;
+}
+.res-btn button {
+    background: #024E00;
+    border-radius: 50px;
+    color: #F3F3F3;
+    border: 1px solid #024E00;
+    padding: 5px 22px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.res-btn button:hover {
+    background: transparent;
+    color: #024E00;
+    transition: .3s;
+}

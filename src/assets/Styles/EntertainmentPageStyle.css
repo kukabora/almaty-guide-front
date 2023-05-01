@@ -1,0 +1,120 @@
+.entertainmentpage-item {
+    margin-top: 50px;
+}
+.entertainmentpage-item-title h1{
+    font-size: 24px;
+}
+
+.afisha-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.afisha-image {
+    padding-top: 40px;
+}
+.afisha-image-title h5 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+}
+
+.afisha-time .title p,
+.afisha-hall .title p,
+.afisha-lang .title p,
+.afisha-adult .title p,
+.afisha-kid .title p,
+.afisha-student .title p,
+.afisha-vip .title p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0%;
+}
+.title {
+    margin-bottom: 40px;
+}
+
+.afisha-time .times {
+    border: 1px solid #024E00;
+    border-radius: 50px;
+    padding: 3px 20px;
+    margin-bottom: 8px;
+}
+.afisha-time .times p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #024E00;
+}
+
+.afisha-hall .hall-number p {
+    font-size: 16px;
+}
+
+.afisha-btn .afisha-btn-item button {
+    background: #024E00;
+    border: 1px solid #024E00;
+    color: #F3F3F3;
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+.afisha-btn .afisha-btn-item button:hover {
+    background: transparent;
+    color: #024E00;
+    transition: .3s;
+}
+.afisha-btn {
+    margin-top: 43px;
+}
+.reserv-head {
+    margin-top: 30px;
+}
+.reserv-head h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #262626;
+}
+.tickets {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tickets p {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.res-main {
+    display: flex;
+}
+.res-main-count {
+    margin-right: 30px;
+}
+.reserv {
+    padding: 0 80px;
+}
+.res-btn button {
+    background: #024E00;
+    padding: 5px 25px;
+    color: #F3F3F3;
+    border: 1px solid #024E00;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    border-radius: 40px;
+}
+.res-btn {
+    margin-top: 50px;
+}
+.res-btn button:hover {
+    background: transparent;
+    color: #024E00;
+    transition: .3s;
+}

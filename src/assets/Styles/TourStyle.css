@@ -1,0 +1,232 @@
+.tourpage-title {
+    margin-top: 40px;
+    text-align: left;
+}
+.tourpage-title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #262626;
+    line-height: 120%;
+}
+
+.gallery-tour {
+    margin-top: 30px;
+}
+
+.gal-up {
+    display: grid;
+    grid-template-columns: 670px 520px;
+    margin-bottom: 10px;
+}
+.gal-down {
+    display: grid;
+    grid-template-columns: 340px 480px 360px;
+}
+
+.gal-up-item img {
+    width: 100%;
+}
+.gal-down-item img {
+    width: 100%;
+}
+
+.gal-up-item:nth-child(1) {
+    margin-right: 5px;
+}
+.gal-up-item:nth-child(2) {
+    margin-left: 5px;
+}
+
+.gal-down-item:nth-child(1) {
+    margin-right: 5px;
+}
+.gal-down-item:nth-child(2) {
+    margin: 0 5px;
+}
+.gal-down-item:nth-child(3) {
+    margin-left: 5px;
+}
+
+.tour-desc {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.description-tour {
+    width: 60%;
+}
+.description-tour p {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 100%;
+
+}
+
+.cost {
+    padding-left: 60px;
+}
+.cost p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 100%;
+    text-align: left;
+    margin: 0;
+}
+
+.tour-program-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tour-program-title h1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    line-height: 120%;
+    color: #262626;
+    text-align: left;
+}
+
+.bring-title h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    line-height: 120%;
+    text-align: left;
+}
+
+.tour-program {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+.tour-program-box .dot {
+    background: #024E00;
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+}
+.tour-program-box .line {
+    background: #024E00;
+    width: 1px;
+    height: 50px;
+    margin-left: 3px;
+}
+
+.tour-program-box .line:nth-child(2),
+.tour-program-box .line:nth-child(4){
+    height: 100px;
+}
+
+.tour-program-box .line:nth-child(6) {
+    height: 60px;
+}
+.tour-program-box .line:nth-child(8) {
+    height: 55px;
+}
+.tour-program-box .line:nth-child(10) {
+    height: 65px;
+}
+.tour-program-box .line:nth-child(12) {
+    height: 60px;
+}
+
+.tour-program-box .tour-program-box-title {
+    text-align: left;
+}
+
+.first .tour-program-box-title {
+    margin-top: 100px;
+    text-align: right;
+}
+
+.tour-program-box-title h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    margin: 0;
+}
+.tour-program-box-title p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 100%;
+}
+.first .tour-program-box-title:nth-child(2) {
+    margin-top: 115px;
+}
+.second {
+    margin-top: 5px;
+    margin: 0 25px;
+}
+
+.third .tour-program-box-title {
+    margin-top: 100px;
+}
+.third .tour-program-box-title:nth-child(1) {
+    margin-top: 0px;
+}
+.third .tour-program-box-title:nth-child(2) {
+    margin-top: 135px;
+}
+.third .tour-program-box-title:nth-child(3) {
+    margin-top: 95px;
+}
+.third .tour-program-box-title:nth-child(4) {
+    margin-top: 95px;
+}
+
+.bring-boxes {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.bring-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    border-left: 1px solid #024E00;
+}
+.bring-box:nth-child(1) {
+    padding-left: 0;
+    border: none;
+}
+.bring-box:nth-child(4) {
+    padding-right: 0;
+}
+
+.bring-box-text {
+    text-align: left;
+    width: 65%;
+}
+.bring-box-text h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+}
+.bring-box-text p {
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 100%;
+}
+
+.tourpage-btn {
+    margin: 50px 0;
+}
+.tourpage-btn button {
+    padding: 10px 45px;
+    background: #024E00;
+    border: 1px solid #024E00;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #F3F3F3;
+    border-radius: 30px;
+}
+
+.tourpage-btn button:hover {
+    background: transparent;
+    color: #024E00;
+    transition: .3s;
+}

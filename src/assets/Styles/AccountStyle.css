@@ -1,0 +1,128 @@
+.account-menu {
+    background: rgb(2,78,0);
+}
+.account-navigation nav a {
+}
+.account-navigation nav a p {
+    padding-left: 5px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+.account-navigation nav a p span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.account-manage-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+.account-manage-box:hover {
+    background: rgb(2,100,0);
+    border-radius: 60px;
+}
+.account-manage-btn{
+    background: transparent;
+    border-radius: 60px;
+    border: 1px;
+    padding: 10px;
+}
+.account-manage-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-manage-img img {
+    width: 30px;
+    height: 30px;
+}
+.account-manage-name {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-bottom: 0;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #fff;
+}
+.account-manage-name p {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.content-title {
+    margin-top: 50px;
+    text-align: left;
+}
+.content-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.content-title h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.setting-boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.setting-box {
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    padding: 16px;
+}
+.setting-box-img {
+    width: 24px;
+    height: 24px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    padding: 12px;
+    height: 48px;
+    width: 48px;
+}
+.setting-box-texts {
+    text-align: left;
+    margin-left: 10px;
+}
+.setting-box-texts-head h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+}
+.setting-box-texts-small p {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0;
+}
+.setting-box-texts-link a {
+    font-size: 14px;
+    display: inline-block;
+}
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 100px;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f5f5f5;
+}
+
